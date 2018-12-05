@@ -1,0 +1,19 @@
+body{
+	background: url(b.jpg);
+
+}
+li {
+	border: 2px solid black;
+	color: white;
+}
+#l1{
+	color: red;
+	background-color: purple;
+}
+h1{
+	color: white;
+}
+.ll{
+	background-color: orange;
+	text-decoration: line-through;
+}
