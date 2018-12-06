@@ -1,0 +1,30 @@
+/*elements*/
+
+/*class*/
+
+/*id*/
+
+/*star*/
+* {
+	border : 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+li a {
+	color: red;
+}
+
+/*Adjancent Selector*/
+h4 +ul {
+	border : 4px solid red;
+}
+
+/*Attribute Selector*/
+a[href="http://www.google.com"]{
+	border: 1px dotted black;
+}
+
+/*nth of type*/
+li:nth-of-type(odd){
+	background-color: purple;
+}
