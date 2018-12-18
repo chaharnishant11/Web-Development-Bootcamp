@@ -1,5 +1,11 @@
-var name = prompt("what is your name?");
+var num = 4;
 
-alert("nice to meet you," + name);
+var guess = prompt("guess the number");
 
-console.log("also great to meet you," + name);
+if(Number(guess) === num){
+	alert("you got it right");
+}else if(Number(guess)>num){
+	alert("too high!");
+}else{
+	alert("too low!");
+}
