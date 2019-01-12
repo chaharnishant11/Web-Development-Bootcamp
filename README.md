@@ -5,3 +5,4 @@ This includes the projects and assignments done during the web development bootc
 2. Bootstrap:https://getbootstrap.com
 3. MDN:https://developer.mozilla.org/en-US/
 4. fontawesome:https://fontawesome.com
+5. uiGradients:https://uigradients.com/#Timber
