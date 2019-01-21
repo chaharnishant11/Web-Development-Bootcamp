@@ -8,17 +8,19 @@ app.get("/",function(req,res){
 
 app.get("/speak/:animal",function(req,res){
     var animal = req.params.animal;
+    var sound = "" ;
     if(animal === "dog"){
-        res.send("The "+animal+" says woof");    
+           sound = "woof";
     }else if(animal === "cat"){
-        res.send("The "+animal+" says meow");    
+        sound = "meow";
     }else if(animal === "pig"){
-        res.send("The "+animal+" says oink");    
+        sound = "oink";
     }else if(animal === "bird"){
-        res.send("The "+animal+" says chirp chirp");    
+        sound = "chirp";
     }else if(animal === "human"){
-        res.send("The "+animal+" says hatt teri maa ki");    
+        sound = "hatt teri maa ki";
     }
+    res.send("The "+animal+" says "+sound); 
     
 });
 
