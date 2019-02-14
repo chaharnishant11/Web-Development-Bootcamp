@@ -1,0 +1,33 @@
+@@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+body{
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  color: white;
+  font-family: 'RobotoCondensed';
+  background: #7b4397;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold'
+}
+h1{
+  font-size: 5em;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 2em;
+}
