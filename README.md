@@ -10,3 +10,4 @@ This includes the projects and assignments done during the web development bootc
 7. ProgrammableWeb:https://www.programmableweb.com/
 8. IFTTT:https://ifttt.com/
 9. Semantic Ui:https://semantic-ui.com/
+10. cheatsheets: https://devhints.io/
